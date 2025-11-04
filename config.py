@@ -22,8 +22,8 @@ WEATHER_MAX_C = float(os.getenv("WEATHER_MAX_C", "20"))
 
 # Ежедневные сообщения
 DAILY_ENABLE = os.getenv("DAILY_ENABLE", "false").lower() == "true"
-DAILY_MORNING = os.getenv("DAILY_MORNING", "08:00")
-DAILY_EVENING = os.getenv("DAILY_EVENING", "23:00")
+DAILY_MORNING = os.getenv("DAILY_MORNING", "06:00")
+DAILY_EVENING = os.getenv("DAILY_EVENING", "02:00")
 
 # энергомодель
 ENERGY_OVERHEAD = float(os.getenv("ENERGY_OVERHEAD", "0.07"))
